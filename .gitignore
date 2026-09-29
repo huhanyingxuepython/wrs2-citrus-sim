@@ -78,6 +78,8 @@ scene_free.xml
 *.pkl
 *.pt
 *.md
+# Root project readme is part of the published repo.
+!/README.md
 # ...but DO track the published docs site (mkdocs reads these; CI needs them committed)
 !docs/
 !docs/**
