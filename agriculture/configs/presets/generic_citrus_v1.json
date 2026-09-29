@@ -1,0 +1,689 @@
+{
+  "name": "generic_citrus_v1",
+  "seed": 20260916,
+  "reference_status": "Procedural placeholder lab citrus tree; NOT calibrated to reference video. All macro dimensions are editable here.",
+  "macro_branches": [
+    {
+      "id": "trunk_00",
+      "parent_id": null,
+      "start": [
+        0.0,
+        0.0,
+        0
+      ],
+      "end": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "radius_start": 0.027,
+      "radius_end": 0.023,
+      "order": 0
+    },
+    {
+      "id": "trunk_01",
+      "parent_id": "trunk_00",
+      "start": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "end": [
+        0.012,
+        -0.008,
+        0.724
+      ],
+      "radius_start": 0.023,
+      "radius_end": 0.019,
+      "order": 0
+    },
+    {
+      "id": "trunk_02",
+      "parent_id": "trunk_01",
+      "start": [
+        0.012,
+        -0.008,
+        0.724
+      ],
+      "end": [
+        0.0,
+        0.008,
+        0.94
+      ],
+      "radius_start": 0.019,
+      "radius_end": 0.012,
+      "order": 0
+    },
+    {
+      "id": "main_00",
+      "parent_id": "trunk_00",
+      "start": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "end": [
+        0.176,
+        -0.128,
+        0.804
+      ],
+      "radius_start": 0.015,
+      "radius_end": 0.009,
+      "order": 1
+    },
+    {
+      "id": "main_01",
+      "parent_id": "trunk_01",
+      "start": [
+        0.012,
+        -0.008,
+        0.724
+      ],
+      "end": [
+        0.24,
+        0.08,
+        0.932
+      ],
+      "radius_start": 0.014,
+      "radius_end": 0.008,
+      "order": 1
+    },
+    {
+      "id": "main_02",
+      "parent_id": "trunk_01",
+      "start": [
+        0.012,
+        -0.008,
+        0.724
+      ],
+      "end": [
+        0.032,
+        0.232,
+        0.98
+      ],
+      "radius_start": 0.014,
+      "radius_end": 0.008,
+      "order": 1
+    },
+    {
+      "id": "main_03",
+      "parent_id": "trunk_01",
+      "start": [
+        0.012,
+        -0.008,
+        0.724
+      ],
+      "end": [
+        -0.2,
+        0.136,
+        0.932
+      ],
+      "radius_start": 0.014,
+      "radius_end": 0.008,
+      "order": 1
+    },
+    {
+      "id": "main_04",
+      "parent_id": "trunk_00",
+      "start": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "end": [
+        -0.208,
+        -0.104,
+        0.828
+      ],
+      "radius_start": 0.015,
+      "radius_end": 0.009,
+      "order": 1
+    },
+    {
+      "id": "main_05",
+      "parent_id": "trunk_01",
+      "start": [
+        0.012,
+        -0.008,
+        0.724
+      ],
+      "end": [
+        -0.056,
+        -0.224,
+        0.98
+      ],
+      "radius_start": 0.014,
+      "radius_end": 0.008,
+      "order": 1
+    },
+    {
+      "id": "main_06",
+      "parent_id": "trunk_02",
+      "start": [
+        0.0,
+        0.008,
+        0.94
+      ],
+      "end": [
+        0.112,
+        -0.016,
+        1.14
+      ],
+      "radius_start": 0.009,
+      "radius_end": 0.006,
+      "order": 1
+    },
+    {
+      "id": "main_07",
+      "parent_id": "trunk_02",
+      "start": [
+        0.0,
+        0.008,
+        0.94
+      ],
+      "end": [
+        -0.08,
+        0.04,
+        1.164
+      ],
+      "radius_start": 0.009,
+      "radius_end": 0.006,
+      "order": 1
+    },
+    {
+      "id": "mid_00",
+      "parent_id": "main_00",
+      "start": [
+        0.176,
+        -0.128,
+        0.804
+      ],
+      "end": [
+        0.312,
+        -0.16,
+        0.9
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_01",
+      "parent_id": "main_00",
+      "start": [
+        0.176,
+        -0.128,
+        0.804
+      ],
+      "end": [
+        0.16,
+        -0.304,
+        0.924
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_02",
+      "parent_id": "main_01",
+      "start": [
+        0.24,
+        0.08,
+        0.932
+      ],
+      "end": [
+        0.352,
+        0.032,
+        1.012
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_03",
+      "parent_id": "main_01",
+      "start": [
+        0.24,
+        0.08,
+        0.932
+      ],
+      "end": [
+        0.248,
+        0.224,
+        1.06
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_04",
+      "parent_id": "main_02",
+      "start": [
+        0.032,
+        0.232,
+        0.98
+      ],
+      "end": [
+        0.12,
+        0.336,
+        1.092
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_05",
+      "parent_id": "main_02",
+      "start": [
+        0.032,
+        0.232,
+        0.98
+      ],
+      "end": [
+        -0.08,
+        0.32,
+        1.116
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_06",
+      "parent_id": "main_03",
+      "start": [
+        -0.2,
+        0.136,
+        0.932
+      ],
+      "end": [
+        -0.304,
+        0.232,
+        1.028
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_07",
+      "parent_id": "main_03",
+      "start": [
+        -0.2,
+        0.136,
+        0.932
+      ],
+      "end": [
+        -0.344,
+        0.064,
+        1.004
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_08",
+      "parent_id": "main_04",
+      "start": [
+        -0.208,
+        -0.104,
+        0.828
+      ],
+      "end": [
+        -0.344,
+        -0.12,
+        0.924
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_09",
+      "parent_id": "main_04",
+      "start": [
+        -0.208,
+        -0.104,
+        0.828
+      ],
+      "end": [
+        -0.224,
+        -0.272,
+        0.964
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_10",
+      "parent_id": "main_05",
+      "start": [
+        -0.056,
+        -0.224,
+        0.98
+      ],
+      "end": [
+        -0.016,
+        -0.36,
+        1.06
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_11",
+      "parent_id": "main_05",
+      "start": [
+        -0.056,
+        -0.224,
+        0.98
+      ],
+      "end": [
+        -0.176,
+        -0.312,
+        1.084
+      ],
+      "radius_start": 0.007,
+      "radius_end": 0.0035,
+      "order": 2
+    },
+    {
+      "id": "mid_12",
+      "parent_id": "main_06",
+      "start": [
+        0.112,
+        -0.016,
+        1.14
+      ],
+      "end": [
+        0.232,
+        -0.112,
+        1.22
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.003,
+      "order": 2
+    },
+    {
+      "id": "mid_13",
+      "parent_id": "main_06",
+      "start": [
+        0.112,
+        -0.016,
+        1.14
+      ],
+      "end": [
+        0.208,
+        0.096,
+        1.252
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.003,
+      "order": 2
+    },
+    {
+      "id": "mid_14",
+      "parent_id": "main_06",
+      "start": [
+        0.112,
+        -0.016,
+        1.14
+      ],
+      "end": [
+        0.056,
+        -0.168,
+        1.284
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.003,
+      "order": 2
+    },
+    {
+      "id": "mid_15",
+      "parent_id": "main_07",
+      "start": [
+        -0.08,
+        0.04,
+        1.164
+      ],
+      "end": [
+        -0.224,
+        -0.032,
+        1.236
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.003,
+      "order": 2
+    },
+    {
+      "id": "mid_16",
+      "parent_id": "main_07",
+      "start": [
+        -0.08,
+        0.04,
+        1.164
+      ],
+      "end": [
+        -0.16,
+        0.176,
+        1.252
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.003,
+      "order": 2
+    },
+    {
+      "id": "mid_17",
+      "parent_id": "main_07",
+      "start": [
+        -0.08,
+        0.04,
+        1.164
+      ],
+      "end": [
+        0.016,
+        0.152,
+        1.316
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.003,
+      "order": 2
+    },
+    {
+      "id": "mid_18",
+      "parent_id": "main_06",
+      "start": [
+        0.0,
+        0.008,
+        0.94
+      ],
+      "end": [
+        0.15,
+        -0.18,
+        1.0
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.003,
+      "order": 2,
+      "attachment_t": 0.0
+    },
+    {
+      "id": "mid_19",
+      "parent_id": "main_07",
+      "start": [
+        0.0,
+        0.008,
+        0.94
+      ],
+      "end": [
+        -0.06,
+        -0.22,
+        1.02
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.003,
+      "order": 2,
+      "attachment_t": 0.0
+    }
+  ],
+  "twig_generation": {
+    "attachment_range": [
+      0.25,
+      1.0
+    ],
+    "length_range": [
+      0.1,
+      0.17
+    ],
+    "radius_start": 0.003,
+    "radius_end": 0.0012,
+    "cone_angle_deg": [
+      35,
+      70
+    ],
+    "outward_bias": 0.3,
+    "upward_bias": 0.18
+  },
+  "leaf_generation": {
+    "min_radial_distance": 0.07,
+    "per_branch": 5,
+    "attachment_range": [
+      0.05,
+      1.0
+    ],
+    "pitch_deg": [
+      12,
+      68
+    ],
+    "roll_deg": 20,
+    "outward_bias": 0.55,
+    "axial_bias": 0.25,
+    "length": 0.13,
+    "width": 0.056,
+    "size_jitter": 0.17
+  },
+  "leaf_shape": {
+    "fold": 0.2,
+    "curl": 0.045,
+    "droop": 0.09,
+    "profile_power": 1.1
+  },
+  "fruit_generation": {
+    "radius": 0.037,
+    "stem_length": 0.024,
+    "stem_radius": 0.002
+  },
+  "fruit_placements": [
+    {
+      "id": "orange_000",
+      "parent_branch": "twig_mid_00_01",
+      "attachment_t": 0.75
+    },
+    {
+      "id": "orange_001",
+      "parent_branch": "twig_mid_09_02",
+      "attachment_t": 0.8,
+      "radius": 0.039
+    },
+    {
+      "id": "orange_002",
+      "parent_branch": "twig_mid_03_01",
+      "attachment_t": 0.65,
+      "radius": 0.035
+    },
+    {
+      "id": "orange_003",
+      "parent_branch": "twig_mid_10_02",
+      "attachment_t": 0.7
+    },
+    {
+      "id": "orange_004",
+      "parent_branch": "twig_mid_12_01",
+      "attachment_t": 0.72,
+      "radius": 0.034
+    },
+    {
+      "id": "orange_005",
+      "parent_branch": "twig_mid_16_02",
+      "attachment_t": 0.78,
+      "radius": 0.036
+    }
+  ],
+  "collision": {
+    "branch_radius_threshold": 0.006
+  },
+  "visual": {
+    "branch_sides": 10,
+    "twig_color_radius": 0.004,
+    "trunk_color": [
+      0.29,
+      0.25,
+      0.13
+    ],
+    "branch_color": [
+      0.26,
+      0.29,
+      0.12
+    ],
+    "twig_color": [
+      0.16,
+      0.29,
+      0.09
+    ],
+    "leaf_colors": [
+      [
+        0.1,
+        0.3,
+        0.06
+      ],
+      [
+        0.16,
+        0.4,
+        0.08
+      ],
+      [
+        0.25,
+        0.47,
+        0.1
+      ]
+    ],
+    "fruit_color": [
+      1.0,
+      0.43,
+      0.025
+    ],
+    "fruit_subdivisions": 2
+  },
+  "demo": {
+    "camera_pos": [
+      1.75,
+      -2.25,
+      1.8
+    ],
+    "camera_lookat": [
+      0,
+      0,
+      0.88
+    ],
+    "ground_size": [
+      2.4,
+      2.4,
+      0.025
+    ],
+    "ground_color": [
+      0.6,
+      0.62,
+      0.53
+    ]
+  },
+  "generator": "reference",
+  "preset_name": "generic_citrus_v1",
+  "extends": "../species/citrus.json"
+}

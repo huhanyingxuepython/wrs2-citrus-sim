@@ -1,0 +1,2112 @@
+{
+  "name": "lab_tree_v1_reference",
+  "seed": 20260916,
+  "reference_status": "Relative occupancy fit from 12 frames of the supplied video. Absolute scale, hidden topology and depth are estimated; 80 mm fruit diameter is an unmeasured working assumption.",
+  "macro_branches": [
+    {
+      "id": "trunk_00",
+      "parent_id": null,
+      "start": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "end": [
+        -0.008,
+        0.015,
+        0.25
+      ],
+      "radius_start": 0.014,
+      "radius_end": 0.012,
+      "order": 0,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "trunk_01",
+      "parent_id": "trunk_00",
+      "start": [
+        -0.008,
+        0.015,
+        0.25
+      ],
+      "end": [
+        -0.026,
+        0.023,
+        0.49
+      ],
+      "radius_start": 0.012,
+      "radius_end": 0.009,
+      "order": 0,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "trunk_02",
+      "parent_id": "trunk_01",
+      "start": [
+        -0.026,
+        0.023,
+        0.49
+      ],
+      "end": [
+        -0.04,
+        0.024,
+        0.73
+      ],
+      "radius_start": 0.009,
+      "radius_end": 0.0065,
+      "order": 0,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "trunk_03",
+      "parent_id": "trunk_02",
+      "start": [
+        -0.04,
+        0.024,
+        0.73
+      ],
+      "end": [
+        -0.057,
+        0.02,
+        0.96
+      ],
+      "radius_start": 0.0065,
+      "radius_end": 0.004,
+      "order": 0,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_left",
+      "parent_id": "trunk_00",
+      "start": [
+        -0.008,
+        0.015,
+        0.25
+      ],
+      "end": [
+        -0.12,
+        0.025,
+        0.45
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_left_shoot_00",
+      "parent_id": "lower_left",
+      "start": [
+        -0.12,
+        0.025,
+        0.45
+      ],
+      "end": [
+        -0.24,
+        -0.06,
+        0.37
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_left_shoot_01",
+      "parent_id": "lower_left",
+      "start": [
+        -0.12,
+        0.025,
+        0.45
+      ],
+      "end": [
+        -0.16,
+        -0.09,
+        0.28
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_left_shoot_02",
+      "parent_id": "lower_left",
+      "start": [
+        -0.12,
+        0.025,
+        0.45
+      ],
+      "end": [
+        -0.21,
+        0.08,
+        0.36
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_left_shoot_03",
+      "parent_id": "lower_left",
+      "start": [
+        -0.12,
+        0.025,
+        0.45
+      ],
+      "end": [
+        -0.1,
+        0.08,
+        0.25
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_right",
+      "parent_id": "trunk_00",
+      "start": [
+        -0.008,
+        0.015,
+        0.25
+      ],
+      "end": [
+        0.095,
+        0.02,
+        0.41
+      ],
+      "radius_start": 0.006,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_right_shoot_00",
+      "parent_id": "lower_right",
+      "start": [
+        0.095,
+        0.02,
+        0.41
+      ],
+      "end": [
+        0.21,
+        -0.01,
+        0.34
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_right_shoot_01",
+      "parent_id": "lower_right",
+      "start": [
+        0.095,
+        0.02,
+        0.41
+      ],
+      "end": [
+        0.16,
+        -0.07,
+        0.24
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_right_shoot_02",
+      "parent_id": "lower_right",
+      "start": [
+        0.095,
+        0.02,
+        0.41
+      ],
+      "end": [
+        0.17,
+        0.09,
+        0.36
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "lower_right_shoot_03",
+      "parent_id": "lower_right",
+      "start": [
+        0.095,
+        0.02,
+        0.41
+      ],
+      "end": [
+        0.08,
+        0.1,
+        0.26
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_left",
+      "parent_id": "trunk_01",
+      "start": [
+        -0.026,
+        0.023,
+        0.49
+      ],
+      "end": [
+        -0.16,
+        0.01,
+        0.64
+      ],
+      "radius_start": 0.0055,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_left_shoot_00",
+      "parent_id": "middle_left",
+      "start": [
+        -0.16,
+        0.01,
+        0.64
+      ],
+      "end": [
+        -0.27,
+        -0.09,
+        0.56
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_left_shoot_01",
+      "parent_id": "middle_left",
+      "start": [
+        -0.16,
+        0.01,
+        0.64
+      ],
+      "end": [
+        -0.23,
+        -0.13,
+        0.67
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_left_shoot_02",
+      "parent_id": "middle_left",
+      "start": [
+        -0.16,
+        0.01,
+        0.64
+      ],
+      "end": [
+        -0.28,
+        0.025,
+        0.73
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_left_shoot_03",
+      "parent_id": "middle_left",
+      "start": [
+        -0.16,
+        0.01,
+        0.64
+      ],
+      "end": [
+        -0.24,
+        0.12,
+        0.61
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_left_shoot_04",
+      "parent_id": "middle_left",
+      "start": [
+        -0.16,
+        0.01,
+        0.64
+      ],
+      "end": [
+        -0.14,
+        -0.14,
+        0.59
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_left_shoot_05",
+      "parent_id": "middle_left",
+      "start": [
+        -0.16,
+        0.01,
+        0.64
+      ],
+      "end": [
+        -0.21,
+        0.1,
+        0.76
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_back",
+      "parent_id": "trunk_01",
+      "start": [
+        -0.026,
+        0.023,
+        0.49
+      ],
+      "end": [
+        -0.04,
+        0.12,
+        0.65
+      ],
+      "radius_start": 0.0055,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_back_shoot_00",
+      "parent_id": "middle_back",
+      "start": [
+        -0.04,
+        0.12,
+        0.65
+      ],
+      "end": [
+        -0.15,
+        0.17,
+        0.61
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_back_shoot_01",
+      "parent_id": "middle_back",
+      "start": [
+        -0.04,
+        0.12,
+        0.65
+      ],
+      "end": [
+        0.07,
+        0.17,
+        0.61
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_back_shoot_02",
+      "parent_id": "middle_back",
+      "start": [
+        -0.04,
+        0.12,
+        0.65
+      ],
+      "end": [
+        -0.13,
+        0.16,
+        0.76
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_back_shoot_03",
+      "parent_id": "middle_back",
+      "start": [
+        -0.04,
+        0.12,
+        0.65
+      ],
+      "end": [
+        0.08,
+        0.15,
+        0.76
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_back_shoot_04",
+      "parent_id": "middle_back",
+      "start": [
+        -0.04,
+        0.12,
+        0.65
+      ],
+      "end": [
+        -0.06,
+        0.12,
+        0.54
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_right",
+      "parent_id": "trunk_01",
+      "start": [
+        -0.026,
+        0.023,
+        0.49
+      ],
+      "end": [
+        0.11,
+        0.035,
+        0.61
+      ],
+      "radius_start": 0.0055,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_right_shoot_00",
+      "parent_id": "middle_right",
+      "start": [
+        0.11,
+        0.035,
+        0.61
+      ],
+      "end": [
+        0.21,
+        0.01,
+        0.55
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_right_shoot_01",
+      "parent_id": "middle_right",
+      "start": [
+        0.11,
+        0.035,
+        0.61
+      ],
+      "end": [
+        0.2,
+        0.09,
+        0.69
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_right_shoot_02",
+      "parent_id": "middle_right",
+      "start": [
+        0.11,
+        0.035,
+        0.61
+      ],
+      "end": [
+        0.16,
+        -0.08,
+        0.72
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "middle_right_shoot_03",
+      "parent_id": "middle_right",
+      "start": [
+        0.11,
+        0.035,
+        0.61
+      ],
+      "end": [
+        0.23,
+        0.07,
+        0.61
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_left",
+      "parent_id": "trunk_02",
+      "start": [
+        -0.04,
+        0.024,
+        0.73
+      ],
+      "end": [
+        -0.17,
+        0.025,
+        0.86
+      ],
+      "radius_start": 0.0055,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_left_shoot_00",
+      "parent_id": "upper_left",
+      "start": [
+        -0.17,
+        0.025,
+        0.86
+      ],
+      "end": [
+        -0.27,
+        -0.04,
+        0.89
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_left_shoot_01",
+      "parent_id": "upper_left",
+      "start": [
+        -0.17,
+        0.025,
+        0.86
+      ],
+      "end": [
+        -0.24,
+        0.07,
+        0.95
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_left_shoot_02",
+      "parent_id": "upper_left",
+      "start": [
+        -0.17,
+        0.025,
+        0.86
+      ],
+      "end": [
+        -0.15,
+        -0.12,
+        0.99
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_left_shoot_03",
+      "parent_id": "upper_left",
+      "start": [
+        -0.17,
+        0.025,
+        0.86
+      ],
+      "end": [
+        -0.27,
+        0.11,
+        0.81
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_left_shoot_04",
+      "parent_id": "upper_left",
+      "start": [
+        -0.17,
+        0.025,
+        0.86
+      ],
+      "end": [
+        -0.19,
+        -0.08,
+        0.8
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_back",
+      "parent_id": "trunk_02",
+      "start": [
+        -0.04,
+        0.024,
+        0.73
+      ],
+      "end": [
+        -0.04,
+        0.1,
+        0.85
+      ],
+      "radius_start": 0.0055,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_back_shoot_00",
+      "parent_id": "upper_back",
+      "start": [
+        -0.04,
+        0.1,
+        0.85
+      ],
+      "end": [
+        -0.14,
+        0.15,
+        0.88
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_back_shoot_01",
+      "parent_id": "upper_back",
+      "start": [
+        -0.04,
+        0.1,
+        0.85
+      ],
+      "end": [
+        0.035,
+        0.17,
+        0.93
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_back_shoot_02",
+      "parent_id": "upper_back",
+      "start": [
+        -0.04,
+        0.1,
+        0.85
+      ],
+      "end": [
+        0.09,
+        0.11,
+        0.83
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_back_shoot_03",
+      "parent_id": "upper_back",
+      "start": [
+        -0.04,
+        0.1,
+        0.85
+      ],
+      "end": [
+        -0.08,
+        0.17,
+        1.0
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_right",
+      "parent_id": "trunk_02",
+      "start": [
+        -0.04,
+        0.024,
+        0.73
+      ],
+      "end": [
+        0.09,
+        0.025,
+        0.84
+      ],
+      "radius_start": 0.0055,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_right_shoot_00",
+      "parent_id": "upper_right",
+      "start": [
+        0.09,
+        0.025,
+        0.84
+      ],
+      "end": [
+        0.2,
+        -0.06,
+        0.86
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_right_shoot_01",
+      "parent_id": "upper_right",
+      "start": [
+        0.09,
+        0.025,
+        0.84
+      ],
+      "end": [
+        0.18,
+        0.09,
+        0.96
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_right_shoot_02",
+      "parent_id": "upper_right",
+      "start": [
+        0.09,
+        0.025,
+        0.84
+      ],
+      "end": [
+        0.23,
+        0.015,
+        0.89
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_right_shoot_03",
+      "parent_id": "upper_right",
+      "start": [
+        0.09,
+        0.025,
+        0.84
+      ],
+      "end": [
+        0.1,
+        -0.095,
+        0.97
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "upper_right_shoot_04",
+      "parent_id": "upper_right",
+      "start": [
+        0.09,
+        0.025,
+        0.84
+      ],
+      "end": [
+        0.22,
+        0.1,
+        0.81
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "apex",
+      "parent_id": "trunk_03",
+      "start": [
+        -0.057,
+        0.02,
+        0.96
+      ],
+      "end": [
+        -0.083,
+        0.02,
+        1.015
+      ],
+      "radius_start": 0.0055,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "apex_shoot_00",
+      "parent_id": "apex",
+      "start": [
+        -0.083,
+        0.02,
+        1.015
+      ],
+      "end": [
+        -0.14,
+        -0.02,
+        1.075
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "apex_shoot_01",
+      "parent_id": "apex",
+      "start": [
+        -0.083,
+        0.02,
+        1.015
+      ],
+      "end": [
+        -0.065,
+        -0.045,
+        1.09
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "apex_shoot_02",
+      "parent_id": "apex",
+      "start": [
+        -0.083,
+        0.02,
+        1.015
+      ],
+      "end": [
+        -0.015,
+        0.035,
+        1.04
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "apex_shoot_03",
+      "parent_id": "apex",
+      "start": [
+        -0.083,
+        0.02,
+        1.015
+      ],
+      "end": [
+        -0.15,
+        0.07,
+        1.02
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "front_middle",
+      "parent_id": "trunk_01",
+      "start": [
+        -0.026,
+        0.023,
+        0.49
+      ],
+      "end": [
+        -0.045,
+        -0.1,
+        0.65
+      ],
+      "radius_start": 0.0055,
+      "radius_end": 0.0032,
+      "order": 1,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "front_middle_shoot_00",
+      "parent_id": "front_middle",
+      "start": [
+        -0.045,
+        -0.1,
+        0.65
+      ],
+      "end": [
+        -0.16,
+        -0.17,
+        0.74
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "front_middle_shoot_01",
+      "parent_id": "front_middle",
+      "start": [
+        -0.045,
+        -0.1,
+        0.65
+      ],
+      "end": [
+        -0.025,
+        -0.17,
+        0.79
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "front_middle_shoot_02",
+      "parent_id": "front_middle",
+      "start": [
+        -0.045,
+        -0.1,
+        0.65
+      ],
+      "end": [
+        0.04,
+        -0.145,
+        0.67
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "front_middle_shoot_03",
+      "parent_id": "front_middle",
+      "start": [
+        -0.045,
+        -0.1,
+        0.65
+      ],
+      "end": [
+        -0.1,
+        -0.17,
+        0.52
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "front_middle_shoot_04",
+      "parent_id": "front_middle",
+      "start": [
+        -0.045,
+        -0.1,
+        0.65
+      ],
+      "end": [
+        -0.01,
+        -0.17,
+        0.54
+      ],
+      "radius_start": 0.0028,
+      "radius_end": 0.0015,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "fruit_support_000",
+      "parent_id": "middle_right",
+      "start": [
+        0.11,
+        0.035,
+        0.61
+      ],
+      "end": [
+        0.095,
+        -0.235,
+        0.599
+      ],
+      "radius_start": 0.0019,
+      "radius_end": 0.0012,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "fruit_support_001",
+      "parent_id": "front_middle",
+      "start": [
+        -0.045,
+        -0.1,
+        0.65
+      ],
+      "end": [
+        0.07,
+        -0.245,
+        0.837
+      ],
+      "radius_start": 0.0019,
+      "radius_end": 0.0012,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "fruit_support_002",
+      "parent_id": "middle_left",
+      "start": [
+        -0.16,
+        0.01,
+        0.64
+      ],
+      "end": [
+        -0.12,
+        -0.18,
+        0.713
+      ],
+      "radius_start": 0.0019,
+      "radius_end": 0.0012,
+      "order": 2,
+      "attachment_t": 1,
+      "collidable": true
+    },
+    {
+      "id": "cover_upper",
+      "parent_id": "fruit_support_001",
+      "start": [
+        0.07,
+        -0.245,
+        0.837
+      ],
+      "end": [
+        0.053,
+        -0.29,
+        0.832
+      ],
+      "radius_start": 0.0012,
+      "radius_end": 0.0008,
+      "order": 3,
+      "attachment_t": 1,
+      "collidable": false
+    },
+    {
+      "id": "cover_left",
+      "parent_id": "fruit_support_002",
+      "start": [
+        -0.12,
+        -0.18,
+        0.713
+      ],
+      "end": [
+        -0.14,
+        -0.219,
+        0.705
+      ],
+      "radius_start": 0.0012,
+      "radius_end": 0.0008,
+      "order": 3,
+      "attachment_t": 1,
+      "collidable": false
+    },
+    {
+      "id": "front_upper",
+      "parent_id": "trunk_02",
+      "start": [
+        -0.04,
+        0.024,
+        0.73
+      ],
+      "end": [
+        -0.04,
+        -0.075,
+        0.88
+      ],
+      "radius_start": 0.0045,
+      "radius_end": 0.0028,
+      "order": 1,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_upper_shoot_00",
+      "parent_id": "front_upper",
+      "start": [
+        -0.04,
+        -0.075,
+        0.88
+      ],
+      "end": [
+        -0.09,
+        -0.13,
+        0.96
+      ],
+      "radius_start": 0.0024,
+      "radius_end": 0.0013,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_upper_shoot_01",
+      "parent_id": "front_upper",
+      "start": [
+        -0.04,
+        -0.075,
+        0.88
+      ],
+      "end": [
+        0.005,
+        -0.12,
+        0.93
+      ],
+      "radius_start": 0.0024,
+      "radius_end": 0.0013,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_upper_shoot_02",
+      "parent_id": "front_upper",
+      "start": [
+        -0.04,
+        -0.075,
+        0.88
+      ],
+      "end": [
+        -0.11,
+        -0.13,
+        0.85
+      ],
+      "radius_start": 0.0024,
+      "radius_end": 0.0013,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_upper_shoot_03",
+      "parent_id": "front_upper",
+      "start": [
+        -0.04,
+        -0.075,
+        0.88
+      ],
+      "end": [
+        0.045,
+        -0.13,
+        0.84
+      ],
+      "radius_start": 0.0024,
+      "radius_end": 0.0013,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_lower",
+      "parent_id": "trunk_01",
+      "start": [
+        -0.026,
+        0.023,
+        0.49
+      ],
+      "end": [
+        -0.045,
+        -0.08,
+        0.47
+      ],
+      "radius_start": 0.0045,
+      "radius_end": 0.0028,
+      "order": 1,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_lower_shoot_00",
+      "parent_id": "front_lower",
+      "start": [
+        -0.045,
+        -0.08,
+        0.47
+      ],
+      "end": [
+        -0.11,
+        -0.13,
+        0.42
+      ],
+      "radius_start": 0.0024,
+      "radius_end": 0.0013,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_lower_shoot_01",
+      "parent_id": "front_lower",
+      "start": [
+        -0.045,
+        -0.08,
+        0.47
+      ],
+      "end": [
+        -0.045,
+        -0.135,
+        0.36
+      ],
+      "radius_start": 0.0024,
+      "radius_end": 0.0013,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_lower_shoot_02",
+      "parent_id": "front_lower",
+      "start": [
+        -0.045,
+        -0.08,
+        0.47
+      ],
+      "end": [
+        0.025,
+        -0.11,
+        0.41
+      ],
+      "radius_start": 0.0024,
+      "radius_end": 0.0013,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "front_lower_shoot_03",
+      "parent_id": "front_lower",
+      "start": [
+        -0.045,
+        -0.08,
+        0.47
+      ],
+      "end": [
+        -0.15,
+        -0.11,
+        0.48
+      ],
+      "radius_start": 0.0024,
+      "radius_end": 0.0013,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "backing_middle",
+      "parent_id": "trunk_02",
+      "start": [
+        -0.04,
+        0.024,
+        0.73
+      ],
+      "end": [
+        0.02,
+        0.055,
+        0.7
+      ],
+      "radius_start": 0.0045,
+      "radius_end": 0.0027,
+      "order": 1,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "backing_middle_shoot_00",
+      "parent_id": "backing_middle",
+      "start": [
+        0.02,
+        0.055,
+        0.7
+      ],
+      "end": [
+        0.06,
+        0.14,
+        0.79
+      ],
+      "radius_start": 0.0025,
+      "radius_end": 0.0014,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "backing_middle_shoot_01",
+      "parent_id": "backing_middle",
+      "start": [
+        0.02,
+        0.055,
+        0.7
+      ],
+      "end": [
+        0.12,
+        0.07,
+        0.7
+      ],
+      "radius_start": 0.0025,
+      "radius_end": 0.0014,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "backing_middle_shoot_02",
+      "parent_id": "backing_middle",
+      "start": [
+        0.02,
+        0.055,
+        0.7
+      ],
+      "end": [
+        -0.035,
+        0.14,
+        0.8
+      ],
+      "radius_start": 0.0025,
+      "radius_end": 0.0014,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "backing_middle_shoot_03",
+      "parent_id": "backing_middle",
+      "start": [
+        0.02,
+        0.055,
+        0.7
+      ],
+      "end": [
+        -0.05,
+        0.0,
+        0.62
+      ],
+      "radius_start": 0.0025,
+      "radius_end": 0.0014,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "backing_middle_shoot_04",
+      "parent_id": "backing_middle",
+      "start": [
+        0.02,
+        0.055,
+        0.7
+      ],
+      "end": [
+        0.13,
+        0.06,
+        0.57
+      ],
+      "radius_start": 0.0025,
+      "radius_end": 0.0014,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    },
+    {
+      "id": "backing_middle_shoot_05",
+      "parent_id": "backing_middle",
+      "start": [
+        0.02,
+        0.055,
+        0.7
+      ],
+      "end": [
+        0.035,
+        0.1,
+        0.5
+      ],
+      "radius_start": 0.0025,
+      "radius_end": 0.0014,
+      "order": 2,
+      "attachment_t": 1.0,
+      "collidable": true
+    }
+  ],
+  "fruit_placements": [
+    {
+      "id": "orange_000",
+      "parent_branch": "fruit_support_000",
+      "attachment_t": 1.0,
+      "radius": 0.039
+    },
+    {
+      "id": "orange_001",
+      "parent_branch": "fruit_support_001",
+      "attachment_t": 1.0,
+      "radius": 0.042
+    },
+    {
+      "id": "orange_002",
+      "parent_branch": "fruit_support_002",
+      "attachment_t": 1.0,
+      "radius": 0.038
+    }
+  ],
+  "demo": {
+    "camera_pos": [
+      0.02,
+      -1.4,
+      0.84
+    ],
+    "camera_lookat": [
+      0.045,
+      0,
+      0.68
+    ],
+    "ground_size": [
+      1.8,
+      1.8,
+      0.02
+    ],
+    "ground_color": [
+      0.6,
+      0.62,
+      0.53
+    ],
+    "reference_cameras": {
+      "front": {
+        "pos": [
+          0.02,
+          -1.4,
+          0.84
+        ],
+        "lookat": [
+          0.045,
+          0,
+          0.68
+        ]
+      },
+      "front-left": {
+        "pos": [
+          -0.8,
+          -1.35,
+          0.86
+        ],
+        "lookat": [
+          0.045,
+          0,
+          0.68
+        ]
+      },
+      "front-right": {
+        "pos": [
+          0.78,
+          -1.35,
+          0.86
+        ],
+        "lookat": [
+          0.045,
+          0,
+          0.68
+        ]
+      }
+    },
+    "skeleton_radius": 0.0012,
+    "joint_axis_length_scale": 0.35
+  },
+  "scale_multiplier": 1.0,
+  "growth_profiles": {
+    "middle_dense": {
+      "twig": {
+        "per_parent": 4,
+        "length_range": [
+          0.055,
+          0.11
+        ]
+      },
+      "leaf": {
+        "per_branch": 9,
+        "pitch_deg": [
+          -72,
+          25
+        ],
+        "length": 0.095,
+        "width": 0.03
+      }
+    },
+    "upper_dense": {
+      "twig": {
+        "per_parent": 4,
+        "length_range": [
+          0.05,
+          0.09
+        ]
+      },
+      "leaf": {
+        "per_branch": 8,
+        "pitch_deg": [
+          -25,
+          75
+        ]
+      }
+    },
+    "upper_outer": {
+      "twig": {
+        "per_parent": 3,
+        "length_range": [
+          0.045,
+          0.08
+        ]
+      },
+      "leaf": {
+        "per_branch": 7,
+        "pitch_deg": [
+          -35,
+          70
+        ]
+      }
+    },
+    "apex": {
+      "twig": {
+        "per_parent": 3,
+        "length_range": [
+          0.025,
+          0.055
+        ]
+      },
+      "leaf": {
+        "per_branch": 5,
+        "pitch_deg": [
+          20,
+          75
+        ],
+        "length": 0.075,
+        "width": 0.024
+      }
+    },
+    "interior": {
+      "twig": {
+        "per_parent": 3,
+        "length_range": [
+          0.04,
+          0.075
+        ],
+        "outward_bias": 0.05
+      },
+      "leaf": {
+        "per_branch": 9,
+        "pitch_deg": [
+          -65,
+          35
+        ],
+        "length": 0.085,
+        "width": 0.026
+      }
+    },
+    "right_open": {
+      "twig": {
+        "per_parent": 2,
+        "length_range": [
+          0.035,
+          0.07
+        ]
+      },
+      "leaf": {
+        "per_branch": 4,
+        "pitch_deg": [
+          -25,
+          45
+        ]
+      }
+    },
+    "lower": {
+      "twig": {
+        "per_parent": 3,
+        "length_range": [
+          0.07,
+          0.12
+        ],
+        "upward_bias": 0.0
+      },
+      "leaf": {
+        "per_branch": 8,
+        "pitch_deg": [
+          -75,
+          -20
+        ],
+        "length": 0.1,
+        "width": 0.03
+      }
+    },
+    "lower_sparse": {
+      "twig": {
+        "per_parent": 2,
+        "length_range": [
+          0.055,
+          0.1
+        ],
+        "upward_bias": 0.0
+      },
+      "leaf": {
+        "per_branch": 6,
+        "pitch_deg": [
+          -75,
+          -30
+        ],
+        "length": 0.09,
+        "width": 0.027
+      }
+    },
+    "bare": {
+      "twig": {
+        "per_parent": 0
+      },
+      "leaf": {
+        "per_branch": 0
+      }
+    }
+  },
+  "branch_profiles": {
+    "lower_left": "lower",
+    "lower_right": "lower_sparse",
+    "middle_left": "middle_dense",
+    "middle_back": "interior",
+    "middle_right": "right_open",
+    "upper_left": "upper_dense",
+    "upper_back": "interior",
+    "upper_right": "upper_outer",
+    "apex": "apex",
+    "front_middle": "middle_dense",
+    "fruit_support_000": "bare",
+    "fruit_support_001": "bare",
+    "fruit_support_002": "bare",
+    "cover_upper": "bare",
+    "cover_left": "bare",
+    "front_upper": "upper_dense",
+    "front_lower": "lower",
+    "backing_middle": "interior"
+  },
+  "leaf_placements": [
+    {
+      "parent_branch": "cover_upper",
+      "position": [
+        0.053,
+        -0.29,
+        0.832
+      ],
+      "rotmat": [
+        [
+          0.2400720324162085,
+          0.9707283194618915,
+          -0.0072075686776449524
+        ],
+        [
+          -0.030009004052026063,
+          0.0,
+          -0.9995496284206231
+        ],
+        [
+          -0.9702911310155095,
+          0.24018020275345767,
+          0.029130590072148355
+        ]
+      ],
+      "length": 0.094,
+      "width": 0.036,
+      "color_class": 2,
+      "attachment_t": 1.0
+    },
+    {
+      "parent_branch": "cover_left",
+      "position": [
+        -0.14,
+        -0.219,
+        0.705
+      ],
+      "rotmat": [
+        [
+          0.3395249972733001,
+          0.9403762257505054,
+          -0.02037965332875425
+        ],
+        [
+          -0.05991617598940589,
+          0.0,
+          -0.9982034120632962
+        ],
+        [
+          -0.9386867571673589,
+          0.34013608165443815,
+          0.05634374743832057
+        ]
+      ],
+      "length": 0.072,
+      "width": 0.026,
+      "color_class": 0,
+      "attachment_t": 1.0
+    }
+  ],
+  "foliage_exclusions": [
+    {
+      "name": "lower_right_entry",
+      "center": [
+        0.23,
+        -0.235,
+        0.555
+      ],
+      "radii": [
+        0.11,
+        0.095,
+        0.052
+      ]
+    },
+    {
+      "name": "middle_right_window",
+      "center": [
+        0.22,
+        -0.21,
+        0.695
+      ],
+      "radii": [
+        0.085,
+        0.065,
+        0.045
+      ]
+    }
+  ],
+  "reference": {
+    "source_video": "940474370c1c222d6a464947c9f1c92b.mp4",
+    "duration_s": 56.9667,
+    "frame_size_px": [
+      720,
+      1280
+    ],
+    "reviewed_timestamps_s": [
+      0.0,
+      5.18,
+      10.35,
+      15.53,
+      20.7,
+      25.88,
+      31.05,
+      36.23,
+      41.41,
+      46.58,
+      51.76,
+      56.93
+    ],
+    "static_state": "Initial visible fruit set, before picking. Later fruit disappearance is removal, not a different tree.",
+    "coordinates": "+X screen-right in front view, -Y toward camera/accessible front, +Z up. Root origin is assumed below the crop.",
+    "scale": {
+      "status": "estimated",
+      "assumed_fruit_diameter_m": 0.08,
+      "verified_scale_reference": null,
+      "adjustment": "Set scale_multiplier = measured_diameter_m / 0.08; all rest lengths and fixed cameras scale together."
+    },
+    "frame_0_landmarks_px": {
+      "orange_000": [
+        384,
+        838
+      ],
+      "orange_001": [
+        384,
+        566
+      ],
+      "orange_002": [
+        155,
+        696
+      ]
+    },
+    "observed": [
+      "Three visible fruits initially: lower-right, upper-right, middle-left; they disappear in that order.",
+      "Tall uneven canopy, dense upper/middle-left and darker interior; finer hanging foliage at bottom.",
+      "Upper-right fruit is partly covered by a pointed hanging leaf.",
+      "Local right-side access openings; leaves still border/occlude the grasp region.",
+      "Thin green/grey twigs; major woody branches are mostly occluded."
+    ],
+    "estimated": [
+      "All metre values, fruit diameters and root-to-top height.",
+      "Left silhouette continuation and bottom/root outside the image.",
+      "Canopy depth, front/back fruit offsets and camera poses.",
+      "Macro branch topology and collision thickness behind foliage.",
+      "Leaf count is an occupancy tuning parameter, not a video count."
+    ],
+    "not_recovered": [
+      "Camera intrinsics/extrinsics; no calibrated multi-view reconstruction.",
+      "Exact hidden branches, complete rear fruit inventory and certified free approach corridors.",
+      "Metal support frame, gripper and laboratory background are not part of TreeSpec."
+    ]
+  },
+  "generator": "reference",
+  "preset_name": "lab_citrus_v2",
+  "extends": "../species/citrus.json",
+  "dynamics": {
+    "profiles": {
+      "fruit": {
+        "stiffness": 2.5,
+        "damping": 0.055,
+        "wood_density": 500,
+        "fruit_density": 850
+      },
+      "foliage": {
+        "stiffness": 0.18,
+        "damping": 0.006,
+        "wood_density": 500,
+        "fruit_density": 850
+      }
+    },
+    "cluster_roots": [
+      {
+        "id": "fruit_lower",
+        "root_segment": "fruit_support_000",
+        "dof": 2,
+        "profile": "fruit"
+      },
+      {
+        "id": "fruit_upper",
+        "root_segment": "fruit_support_001",
+        "dof": 2,
+        "profile": "fruit"
+      },
+      {
+        "id": "fruit_left",
+        "root_segment": "fruit_support_002",
+        "dof": 2,
+        "profile": "fruit"
+      },
+      {
+        "id": "front_upper_foliage",
+        "root_segment": "front_middle_shoot_01",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "front_right_foliage",
+        "root_segment": "front_middle_shoot_02",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "left_foliage",
+        "root_segment": "middle_left_shoot_01",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "right_foliage",
+        "root_segment": "upper_right_shoot_00",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "lower_foliage",
+        "root_segment": "front_lower_shoot_01",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "contact_front_lower_shoot_00",
+        "root_segment": "front_lower_shoot_00",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "contact_front_lower_shoot_02",
+        "root_segment": "front_lower_shoot_02",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "contact_front_lower_shoot_03",
+        "root_segment": "front_lower_shoot_03",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "contact_front_middle_shoot_00",
+        "root_segment": "front_middle_shoot_00",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "contact_front_middle_shoot_03",
+        "root_segment": "front_middle_shoot_03",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "contact_front_middle_shoot_04",
+        "root_segment": "front_middle_shoot_04",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "contact_front_upper_shoot_02",
+        "root_segment": "front_upper_shoot_02",
+        "dof": 1,
+        "profile": "foliage"
+      },
+      {
+        "id": "contact_front_upper_shoot_03",
+        "root_segment": "front_upper_shoot_03",
+        "dof": 1,
+        "profile": "foliage"
+      }
+    ],
+    "foliage_proxy": {
+      "sections_per_leaf": 3,
+      "padding": 0.0005,
+      "minimum_thickness": 0.0015
+    }
+  },
+  "push_demo": {
+    "cluster": "fruit_upper",
+    "proxy_index": 0,
+    "shape_index": 1,
+    "sphere_radius": 0.025,
+    "travel": 0.14,
+    "clearance": 0.07,
+    "settle_before": 2.0,
+    "push_duration": 1.0,
+    "hold_duration": 0.3,
+    "retract_duration": 0.4,
+    "settle_after": 5.0,
+    "direction_local": [
+      1,
+      0,
+      0
+    ],
+    "pusher_mass": 0.15,
+    "pusher_damping": 8.0
+  }
+}

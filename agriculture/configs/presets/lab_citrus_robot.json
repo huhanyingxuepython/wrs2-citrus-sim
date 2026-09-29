@@ -1,0 +1,139 @@
+{
+  "extends": "lab_citrus_v2.json",
+  "fruit_attachment": {
+    "mode": "breakable_axial",
+    "density_kg_m3": 850.0,
+    "stiffness_N_m": 200.0,
+    "damping_N_s_m": 2.0,
+    "break_force_N": 8.0,
+    "overload_hold_s": 0.04
+  },
+  "harvest_demo": {
+    "parameter_source": "Synthetic pull-off profile shared with lab_citrus_harvest.",
+    "pull_distance_m": 0.14,
+    "pull_speed_m_s": 0.025,
+    "grasp_wait_s": 3.0,
+    "finger_force_N": 20.0,
+    "arm_force_limits_Nm": [80, 80, 60, 30, 20, 15],
+    "sliding_friction": 0.8,
+    "torsional_friction_m": 0.005,
+    "contact_dimension": 4,
+    "contact_impratio": 10.0,
+    "contact_time_constant_s": 0.01,
+    "finger_kp_N_m": 800.0,
+    "finger_kv_N_s_m": 10.0,
+    "opening_speed_m_s": 0.04,
+    "minimum_contact_load_N": 0.05,
+    "grasp_offset_world_m": [0, 0.02, 0.013],
+    "pull_direction_world": [0, -1, 0]
+  },
+  "dynamics": {
+    "profiles": {
+      "foliage": {
+        "stiffness": 0.07,
+        "damping": 0.012
+      }
+    }
+  },
+  "robot_demo": {
+    "base_position": [0.0, -0.80, 0.683],
+    "base_yaw_deg": 90,
+    "plant_lift_m": 0.22,
+    "pedestal_width": 0.20,
+    "pedestal_color": [0.45, 0.48, 0.49],
+    "cart": {
+      "enabled": true,
+      "yaw_deg": 90,
+      "hole_pitch_m": 0.025,
+      "mount_forward_holes": 2,
+      "mount_lateral_holes": 0,
+      "lin_m_s": 0.25,
+      "ang_deg_s": 30,
+      "rgb": [0.55, 0.58, 0.60]
+    },
+    "ik_seed_deg": [-53, 39, 24, -5, -52, -15],
+    "ik_max_step_deg": 12,
+    "ik_max_iter": 60,
+    "tool_roll_deg": -90,
+    "gripper": {
+      "opening_m": 0.050,
+      "contact_link": "left_finger",
+      "contact_tip_band_m": 0.003
+    },
+    "fruit_id": "orange_000",
+    "foliage_cluster": "fruit_upper",
+    "foliage_proxy_index": 0,
+    "foliage_shape_index": 1,
+    "approach_direction": [0, 0.98, -0.2],
+    "ready_offset": [0, -0.28, 0.30],
+    "ready_forward_m": 0.26,
+    "ready_up_m": 0.22,
+    "foliage_push_depth": 0.065,
+    "fruit_pregrasp_m": 0.10,
+    "fruit_push_depth": 0.04,
+    "foliage_dual_axis": true,
+    "foliage_contact": {
+      "sliding_friction": 0.25,
+      "torsional_friction_m": 0.001,
+      "contact_dimension": 3,
+      "contact_time_constant_s": 0.04
+    },
+    "joint_speed_deg_s": 35,
+    "cartesian_speed_m_s": 0.06,
+    "cartesian_waypoint_m": 0.005,
+    "jog_step_m": 0.01,
+    "workspace_min": [-0.32, -0.60, 0.38],
+    "workspace_max": [0.32, -0.12, 1.15],
+    "servo_kp": [700, 900, 800, 350, 220, 120],
+    "servo_kv": [30, 35, 30, 15, 10, 6],
+    "settle_seconds": 2.0,
+    "control_hz": 60,
+    "status_hz": 5,
+    "max_frame_dt": 0.05,
+    "camera_pos": [1.6, -2.4, 1.5],
+    "camera_lookat": [0.0, -0.30, 0.60],
+    "ground_size": [2.5, 2.5, 0.04],
+    "ground_center_xy": [0.0, -0.35],
+    "ground_color": [0.83, 0.85, 0.81],
+    "smoke_hold_seconds": 4.0,
+    "smoke_release_seconds": 5.0,
+    "d405": {
+      "handeye_file": "wrist_d405_handeye.json",
+      "calibration_status": "user-provided T_flange_cam; metre; camera intrinsics remain nominal",
+      "wrs_parent_link": "flange",
+      "width": 320,
+      "height": 240,
+      "fps": 10,
+      "mode": "d405_fast",
+      "seed": 42,
+      "min_depth": 0.07,
+      "max_depth": 2.0,
+      "depth_color_max_m": 0.80,
+      "render_far_m": 5.0,
+      "rgb_background": [0.949019608, 0.949019608, 0.941176471],
+      "rgb_lighting": {
+        "key_direction": [-0.4, -0.5, -1.0],
+        "fill_direction": [0.6, 0.2, -1.0],
+        "key_intensity": 1.0,
+        "fill_intensity": 0.15,
+        "ambient": 0.04,
+        "key_power": 4.0
+      },
+      "depth_noise": {
+        "enabled": true,
+        "preset": "agriculture_foliage",
+        "overrides": {},
+        "slider_max_px": 0.30,
+        "slider_step_px": 0.005,
+        "reference_depths_m": [0.20, 0.40]
+      },
+      "point_stride": 4,
+      "body_size_m": [0.042, 0.042, 0.023],
+      "body_color": [0.20, 0.24, 0.28],
+      "lens_color": [0.04, 0.38, 0.50],
+      "lens_radius_m": 0.0055,
+      "lens_length_m": 0.002,
+      "cloud_color": [0.05, 0.85, 1.0]
+    }
+  }
+}

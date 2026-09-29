@@ -1,0 +1,55 @@
+{
+  "extends": "lab_citrus_robot.json",
+  "fruit_attachment": {
+    "mode": "breakable_axial",
+    "density_kg_m3": 850.0,
+    "stiffness_N_m": 200.0,
+    "damping_N_s_m": 2.0,
+    "break_force_N": 8.0,
+    "overload_hold_s": 0.04
+  },
+  "harvest_demo": {
+    "parameter_source": "Synthetic demo profile; not measured citrus material or rupture parameters. Pull-oriented axial attachment only.",
+    "pull_distance_m": 0.14,
+    "pull_speed_m_s": 0.025,
+    "grasp_wait_s": 3.0,
+    "release_wait_s": 4.0,
+    "finger_force_N": 20.0,
+    "arm_force_limits_Nm": [80, 80, 60, 30, 20, 15],
+    "weak_finger_force_N": 0.5,
+    "sliding_friction": 0.8,
+    "torsional_friction_m": 0.005,
+    "contact_dimension": 4,
+    "contact_impratio": 10.0,
+    "contact_time_constant_s": 0.01,
+    "finger_kp_N_m": 800.0,
+    "finger_kv_N_s_m": 10.0,
+    "opening_speed_m_s": 0.04,
+    "minimum_contact_load_N": 0.05,
+    "pregrasp_offset_world_m": [0, -0.07, 0.005],
+    "grasp_offset_world_m": [0, 0.02, 0.013],
+    "approach_wait_s": 0.5,
+    "enclose_wait_s": 1.0,
+    "hold_after_pull_s": 2.0,
+    "pull_direction_world": [0, -1, 0],
+    "held_relative_speed_m_s": 0.03,
+    "slip_displacement_m": 0.025,
+    "free_grasp_fixture": {
+      "stand_top_m": 0.4,
+      "stand_thickness_m": 0.04,
+      "stand_width_m": 0.16,
+      "fruit_radius_m": 0.04,
+      "grasp_depth_m": 0.02,
+      "stage_mass_kg": 0.5,
+      "stage_radius_m": 0.03,
+      "stage_kp_N_m": 2500.0,
+      "stage_kv_N_s_m": 80.0,
+      "stage_force_N": 100.0,
+      "lift_m": 0.08,
+      "lift_duration_s": 3.0
+    }
+  },
+  "robot_demo": {
+    "gripper": {"opening_m": 0.085}
+  }
+}

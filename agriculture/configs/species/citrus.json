@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "units": "metre",
+  "twig_generation": {
+    "parent_ids": null,
+    "min_parent_order": 2,
+    "per_parent": 3,
+    "attachment_range": [
+      0.12,
+      1.0
+    ],
+    "attachment_jitter": 0.2,
+    "length_range": [
+      0.05,
+      0.09
+    ],
+    "radius_start": 0.0014,
+    "radius_end": 0.00065,
+    "cone_angle_deg": [
+      32,
+      75
+    ],
+    "azimuth_step_deg": 137.5,
+    "outward_bias": 0.18,
+    "upward_bias": 0.05
+  },
+  "leaf_generation": {
+    "min_branch_order": 3,
+    "max_branch_radius": 0.004,
+    "min_radial_distance": 0.0,
+    "per_branch": 6,
+    "attachment_range": [
+      0.04,
+      1.0
+    ],
+    "attachment_jitter": 0.25,
+    "azimuth_step_deg": 137.5,
+    "pitch_deg": [
+      -40,
+      65
+    ],
+    "roll_deg": 30,
+    "outward_bias": 0.3,
+    "axial_bias": 0.2,
+    "length": 0.09,
+    "width": 0.027,
+    "size_jitter": 0.18
+  },
+  "leaf_shape": {
+    "stations": 7,
+    "fold": 0.18,
+    "curl": 0.065,
+    "droop": 0.14,
+    "profile_power": 1.18,
+    "thickness": 8e-05
+  },
+  "fruit_generation": {
+    "radius": 0.04,
+    "stem_length": 0.025,
+    "stem_radius": 0.0014,
+    "stem_direction": [
+      0,
+      0,
+      1
+    ],
+    "targetable": true
+  },
+  "visual": {
+    "branch_taper_steps": 3,
+    "branch_sides": 8,
+    "twig_color_radius": 0.003,
+    "trunk_color": [
+      0.28,
+      0.25,
+      0.17
+    ],
+    "branch_color": [
+      0.25,
+      0.33,
+      0.17
+    ],
+    "twig_color": [
+      0.25,
+      0.36,
+      0.19
+    ],
+    "leaf_colors": [
+      [
+        0.12,
+        0.3,
+        0.075
+      ],
+      [
+        0.23,
+        0.43,
+        0.11
+      ],
+      [
+        0.4,
+        0.59,
+        0.16
+      ]
+    ],
+    "fruit_color": [
+      1.0,
+      0.49,
+      0.025
+    ],
+    "fruit_subdivisions": 3,
+    "stem_color": [
+      0.18,
+      0.32,
+      0.07
+    ],
+    "stem_sides": 6
+  },
+  "collision": {
+    "branch_radius_threshold": 0.004,
+    "leaves_collision": false
+  },
+  "species": "citrus"
+}

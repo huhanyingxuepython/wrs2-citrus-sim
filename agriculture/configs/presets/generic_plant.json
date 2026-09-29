@@ -1,0 +1,59 @@
+{
+  "extends": "../species/citrus.json",
+  "generator": "procedural",
+  "name": "generic_procedural_plant",
+  "preset_name": "generic_plant",
+  "reference_status": "Procedural example, no reference fitting.",
+  "procedural": {
+    "trunk_height": 0.9,
+    "trunk_radius": 0.018,
+    "taper": 0.6,
+    "primary_count": 7,
+    "primary_radius": 0.009,
+    "attachment_range": [
+      0.3,
+      0.9
+    ],
+    "azimuth_step_deg": 137.5,
+    "pitch_deg": [
+      20,
+      55
+    ],
+    "primary_length": [
+      0.2,
+      0.4
+    ],
+    "shoots_per_primary": 3,
+    "shoot_radius": 0.004,
+    "shoot_length": [
+      0.12,
+      0.24
+    ],
+    "shoot_spread_deg": [
+      -50,
+      50
+    ],
+    "shoot_pitch_deg": [
+      5,
+      65
+    ],
+    "fruit_count": 5,
+    "fruit_attachment_range": [
+      0.7,
+      1.0
+    ]
+  },
+  "demo": {
+    "camera_pos": [
+      1.6,
+      -2.1,
+      1.2
+    ],
+    "camera_lookat": [
+      0,
+      0,
+      0.65
+    ]
+  },
+  "seed": 7
+}

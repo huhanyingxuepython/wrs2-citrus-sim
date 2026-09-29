@@ -1,0 +1,30 @@
+[build-system]
+requires = ['setuptools>=68', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'wrs'
+version = '0.1.0'
+description = 'A lightweight robot motion planning and learning framework.'
+readme = 'README.md'
+requires-python = '>=3.12'
+dependencies = [
+    'numpy',
+    'Pillow>=10',
+    'scipy',
+    'mujoco',
+    'xacro',
+    'urdf_parser_py',
+    'wgpu',
+    'rendercanvas',
+    'glfw',
+    'websockets>=14',
+]
+
+[tool.setuptools.packages.find]
+include = ['one*', 'wrs*', 'agriculture*']
+
+[tool.setuptools.package-data]
+agriculture = ['configs/*.json', 'configs/species/*.json', 'configs/presets/*.json']
+'wrs.robots.manipulators.fafu' = ['meshes/*.stl', 'LICENSE']
+'wrs.robots.end_effectors.fafu_gripper' = ['meshes/*.stl', 'LICENSE']
